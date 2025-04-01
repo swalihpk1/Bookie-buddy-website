@@ -2034,9 +2034,9 @@ body {
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(112 131 245 / var(--tw-border-opacity));
+  border-color: rgb(114 61 125 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(112 131 245 / var(--tw-bg-opacity));
+  background-color: rgb(114 61 125 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -3341,7 +3341,7 @@ body {
 
 .focus\:border-primary:focus {
   --tw-border-opacity: 1;
-  border-color: rgb(112 131 245 / var(--tw-border-opacity));
+  border-color: rgb(114 61 125 / var(--tw-border-opacity));
 }
 
 .focus\:shadow-input:focus {
