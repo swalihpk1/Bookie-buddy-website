@@ -61,6 +61,59 @@
   opacity: 0;
 }
 
+/* Button Styling */
+.border-glow {
+  position: relative;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+  border: none;
+  z-index: 10;
+  overflow: hidden;
+}
+
+/* Multi-Color Animated Border */
+.border-glow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  padding: 3px;
+  background: linear-gradient(270deg, #f473ff, #ffdfff, #8d8dff, #6eb7b7, #a4ffa4, #baba36, #ffdc9b, #ff8383);
+  background-size: 300% 300%;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: exclude;
+  mask-composite: exclude;
+  z-index: -1;
+  animation: borderRun 3s linear infinite;
+}
+
+/* Running Border Animation - Counterclockwise */
+@keyframes borderRun {
+  0% {
+    background-position: 100% 50%;
+  }
+
+  50% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Glowing Effect */
+.border-glow:hover::before {
+  filter: brightness(1.5) blur(4px);
+  /* Glow effect on hover */
+}
+
 .glightbox-container .gslide.current {
   opacity: 1;
   z-index: 99999;
