@@ -110,7 +110,6 @@
 
 /* Glowing Effect */
 .border-glow:hover::before {
-  filter: brightness(1.5) blur(4px);
   /* Glow effect on hover */
 }
 
@@ -2558,6 +2557,10 @@ body {
   max-width: 1400px;
 }
 
+.max-w-\[1500px\] {
+  max-width: 1500px;
+}
+
 .max-w-\[145px\] {
   max-width: 145px;
 }
@@ -2572,6 +2575,10 @@ body {
 
 .max-w-\[80px\] {
   max-width: 80px;
+}
+
+.max-w-\[420px\] {
+  max-width: 420px;
 }
 
 .max-w-\[570px\] {
@@ -3216,6 +3223,10 @@ body {
 
 .text-\[22px\] {
   font-size: 22px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 .text-xl {
@@ -4106,3 +4117,6 @@ body {
     max-width: 265px;
   }
 }
+
+
+
