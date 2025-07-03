@@ -42,6 +42,26 @@
   <!-- CSS -->
   <link href="style.css" rel="stylesheet">
 
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1813323196208918');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1813323196208918&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+
 
 </head>
 
@@ -142,7 +162,6 @@
                 </defs>
               </svg>
             </span>
-
           </label>
         </div>
       </div>
@@ -153,7 +172,7 @@
   <!-- ======= Main Start ======= -->
   <main>
     <!-- ======= Hero Start ======= -->
-    <section id="home" class="pt-[165px]">
+    <section id="home" class="pt-[165px] pb-8">
       <div class="container lg:max-w-[1305px] lg:px-10">
         <div class="-mx-4 flex flex-wrap items-center">
           <div class="w-full px-4 lg:w-7/12">
@@ -265,6 +284,156 @@
       </div>
     </section>
     <!-- ======= Hero End ======= -->
+
+
+    <!-- start: Roll Area -->
+    <section class="">
+
+      <div class="container">
+        <div class="scroll-indicator" onclick="scrollDown()">
+          <span class="scroll-text">Check! is This Software for You?</span>
+          <div class="arrow-container">
+            <div class="arrow"></div>
+            <div class="arrow"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+
+        <div class="roll-wrapper">
+          <div class="roll-track">
+
+            <!-- Original Cards -->
+            <div class="roll-card">
+              <img
+                src="https://godwincharli.com/cdn/shop/articles/5_4a30a0f2-639f-4e28-8d79-e3de43bd747b.jpg?v=1694064774"
+                alt="Groom Rentals" />
+              <div class="card-overlay">
+                <h3 class="card-title">Groom Rentals</h3>
+              </div>
+            </div>
+
+            <div class="roll-card">
+              <img
+                src="https://girlandworld.com/wp-content/uploads/2018/03/indian-bridal-pakistani-bride-hair-and-makeup-artist-vancouver-mindy-bansal-beauty-influencer-destination-weddings-girlfriendz-studio1.jpg?w=1920&h=1080&crop=1"
+                alt="Bridal Dresses" />
+              <div class="card-overlay">
+                <h3 class="card-title">Bridal Rentals</h3>
+              </div>
+            </div>
+
+            <div class="roll-card">
+              <img src="https://rentbuyit.com.au/wp-content/uploads/2024/01/cars-in-a-sunset-1.jpg" alt="Car Rentals" />
+              <div class="card-overlay">
+                <h3 class="card-title">Car Rentals</h3>
+              </div>
+            </div>
+
+            <div class="roll-card">
+              <img
+                src="https://www.livemint.com/lm-img/img/2024/10/20/1600x900/INDIA-GOLD-1_1645091171106_1729442514104.JPG"
+                alt="Jewelry Rentals" />
+              <div class="card-overlay">
+                <h3 class="card-title">Jewelry Rentals</h3>
+              </div>
+            </div>
+
+            <div class="roll-card">
+              <img src="https://bigbikerentalbangkok.com/wp-content/uploads/2024/04/Home-about-us.jpg"
+                alt="Bike Rentals" />
+              <div class="card-overlay">
+                <h3 class="card-title">Bike Rentals</h3>
+              </div>
+            </div>
+
+            <div class="roll-card">
+              <img src="https://dailycivil.com/wp-content/uploads/2020/12/construction-tools-lists-2.jpg"
+                alt="Construction Equipment" />
+              <div class="card-overlay">
+                <h3 class="card-title">Construction Equipments</h3>
+
+              </div>
+            </div>
+
+            <div class="roll-card">
+              <img
+                src="https://techresearchonline.com/wp-content/uploads/2022/06/Innovative-and-Futuristic-Tech-gadgets-that-will-make-you-Speech-less_blog-banner-1.webp"
+                alt="Gadget Rentals" />
+              <div class="card-overlay">
+                <h3 class="card-title">Gadget Rentals</h3>
+
+              </div>
+            </div>
+
+            <!-- Cloned Cards for Seamless Loop -->
+            <div class="roll-card">
+              <img
+                src="https://godwincharli.com/cdn/shop/articles/5_4a30a0f2-639f-4e28-8d79-e3de43bd747b.jpg?v=1694064774"
+                alt="Groom Rentals" />
+              <div class="card-overlay">
+                <h3 class="card-title">Groom Rentals</h3>
+
+              </div>
+            </div>
+
+            <div class="roll-card">
+              <img
+                src="https://girlandworld.com/wp-content/uploads/2018/03/indian-bridal-pakistani-bride-hair-and-makeup-artist-vancouver-mindy-bansal-beauty-influencer-destination-weddings-girlfriendz-studio1.jpg?w=1920&h=1080&crop=1"
+                alt="Bridal Dresses" />
+              <div class="card-overlay">
+                <h3 class="card-title">Bridal Rentals</h3>
+
+              </div>
+            </div>
+
+            <div class="roll-card">
+              <img src="https://rentbuyit.com.au/wp-content/uploads/2024/01/cars-in-a-sunset-1.jpg" alt="Car Rentals" />
+              <div class="card-overlay">
+                <h3 class="card-title">Car Rentals</h3>
+
+              </div>
+            </div>
+
+            <div class="roll-card">
+              <img
+                src="https://www.livemint.com/lm-img/img/2024/10/20/1600x900/INDIA-GOLD-1_1645091171106_1729442514104.JPG"
+                alt="Jewelry Rentals" />
+              <div class="card-overlay">
+                <h3 class="card-title">Jewelry Rentals</h3>
+
+              </div>
+            </div>
+
+            <div class="roll-card">
+              <img src="https://bigbikerentalbangkok.com/wp-content/uploads/2024/04/Home-about-us.jpg"
+                alt="Bike Rentals" />
+              <div class="card-overlay">
+                <h3 class="card-title">Bike Rentals</h3>
+              </div>
+            </div>
+
+            <div class="roll-card">
+              <img src="https://dailycivil.com/wp-content/uploads/2020/12/construction-tools-lists-2.jpg"
+                alt="Construction Equipment" />
+              <div class="card-overlay">
+                <h3 class="card-title">Construction Equipments</h3>
+              </div>
+            </div>
+
+            <div class="roll-card">
+              <img
+                src="https://techresearchonline.com/wp-content/uploads/2022/06/Innovative-and-Futuristic-Tech-gadgets-that-will-make-you-Speech-less_blog-banner-1.webp"
+                alt="Gadget Rentals" />
+              <div class="card-overlay">
+                <h3 class="card-title">Gadget Rentals</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- end: Roll Area -->
 
     <!-- ======= Features Start ======= -->
     <section id="features" class="relative z-10 pt-[110px]">
@@ -2506,6 +2675,25 @@
       // Open in new window
       window.open(whatsappUrl, '_blank');
     }
+  </script>
+
+  <!-- scroll down -->
+  <script>
+    function scrollDown() {
+      window.scrollBy({
+        top: 300,
+        behavior: 'smooth'
+      });
+    }
+
+    window.addEventListener('scroll', function () {
+      const scrollIndicator = document.querySelector('.scroll-indicator');
+      if (window.scrollY > 100) {
+        scrollIndicator.style.opacity = '0.3';
+      } else {
+        scrollIndicator.style.opacity = '1';
+      }
+    });
   </script>
 </body>
 
