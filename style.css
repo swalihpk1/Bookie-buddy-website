@@ -2332,6 +2332,11 @@ body {
   margin-right: 1.25rem;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
 .-mx-6 {
   margin-left: -1.5rem;
   margin-right: -1.5rem;
@@ -4961,6 +4966,22 @@ body {
   100% {
     transform: translateY(0);
   }
+}
+
+.trust-card-wrapper {
+  /* background: #000; */
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+  padding: 5rem;
+  /* margin-bottom: 5rem; */
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.trust-card {
+  justify-content: center;
+  gap: 4rem;
 }
 
 /* Tablet screens */
