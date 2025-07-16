@@ -2140,9 +2140,9 @@ body {
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(70 95 255 / var(--tw-border-opacity));
+  border-color: rgb(114 61 125 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(70 95 255 / var(--tw-bg-opacity));
+  background-color: rgb(114 61 125 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -2970,7 +2970,7 @@ body {
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(70 95 255 / var(--tw-bg-opacity));
+  background-color: rgb(114 61 125 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#F8FAFB\] {
@@ -3541,7 +3541,7 @@ body {
 
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
-  color: rgb(70 95 255 / var(--tw-text-opacity));
+  color: rgb(114 61 125 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover {
@@ -3560,7 +3560,7 @@ body {
 
 .focus\:border-primary:focus {
   --tw-border-opacity: 1;
-  border-color: rgb(70 95 255 / var(--tw-border-opacity));
+  border-color: rgb(114 61 125 / var(--tw-border-opacity));
 }
 
 .focus\:shadow-input:focus {
@@ -3572,12 +3572,12 @@ body {
 
 .group:hover .group-hover\:bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(70 95 255 / var(--tw-bg-opacity));
+  background-color: rgb(114 61 125 / var(--tw-bg-opacity));
 }
 
 .group:hover .group-hover\:text-primary {
   --tw-text-opacity: 1;
-  color: rgb(70 95 255 / var(--tw-text-opacity));
+  color: rgb(114 61 125 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-white {
@@ -4748,7 +4748,7 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: rgba(139, 92, 246, 0.1);
+  background: #e564ff25;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(139, 92, 246, 0.3);
   display: flex;
@@ -4766,7 +4766,7 @@ body {
   height: 0;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-top: 8px solid #465fff;
+  border-top: 8px solid #723d7d;
   transition: all 0.3s ease;
   margin-bottom: 2px;
 }
@@ -4785,7 +4785,7 @@ body {
   background: linear-gradient(
     180deg,
     transparent 0%,
-    #465fff20 60%,
+    #ab58bb5d 60%,
     transparent 100%
   );
   animation: waveFlash 2s infinite;
