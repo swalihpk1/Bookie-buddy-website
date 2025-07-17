@@ -2432,6 +2432,10 @@ body {
   margin-bottom: 3rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .mr-6 {
   margin-right: 1.5rem;
 }
@@ -4991,6 +4995,183 @@ body {
 .stamps {
   max-width: 130px;
   max-height: 130px;
+}
+
+.demo-button-1 {
+  padding: 12px 24px;
+  color: white;
+  font-weight: 600;
+  border-radius: 9999px;
+  transition: all 0.7s ease-in-out;
+  background: linear-gradient(
+    120deg,
+    #46e5b3,
+    #ff88ed,
+    #9394ff,
+    #ff8a8a,
+    #ffd780
+  );
+  background-size: 200% 200%;
+  animation: pulse-bg 10s infinite alternate;
+  border: none;
+  cursor: pointer;
+}
+
+.demo-button-1:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 0 12px rgba(68, 68, 68, 0.6);
+  transform: scale(1.09);
+}
+
+@keyframes pulse-bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* testimonials style */
+.testimonials-section {
+  position: relative;
+  overflow: hidden;
+  padding: 100px 20px;
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+#triangle-bg {
+  position: absolute;
+  top: -200px;
+  left: 50%;
+  width: 1000px;
+  height: 800px;
+  transform: translateX(-50%);
+  z-index: -1;
+  pointer-events: none;
+  filter: blur(2px); /* Optional blur */
+}
+
+.testimonials-scroll-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  padding: 2rem 0;
+}
+
+.testimonials-scroll-container {
+  display: flex;
+  gap: 2rem;
+  animation: autoScroll 80s linear infinite;
+  will-change: transform;
+}
+
+@keyframes autoScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.testimonials-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 24px;
+  padding: 20px 0;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.testimonial-card {
+  max-width: 340px;
+  text-align: center;
+  max-height: 300px;
+  background-color: white;
+  padding: 1rem;
+  margin: 0 1rem;
+  border-radius: 1.5rem;
+  box-shadow: -2px 20px 27px -9px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.stars {
+  color: #fabb05;
+  font-size: 10px;
+}
+
+.testimonial-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 4px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 1rem;
+}
+
+.business-name {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  font-size: 12px;
+  color: #555;
+  line-height: 1.6;
+  position: relative;
+  font-weight: 100;
+  padding: 0px 24px 0px 19px;
+}
+
+.quote-left,
+.quote-right {
+  color: #fabb05;
+  font-size: 30px;
+  position: absolute;
+}
+
+.quote-left {
+  top: 0;
+  left: 5px;
+}
+
+.quote-right {
+  bottom: 0;
+  right: 20px;
+}
+
+.floating-img {
+  position: absolute;
+  width: 100px;
+  animation: float 5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.left-img {
+  z-index: 1;
+}
+
+.right-img {
+  z-index: 1;
 }
 
 /* Tablet screens */
