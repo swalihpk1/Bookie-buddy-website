@@ -1,3 +1,7 @@
 {
-  "workbench.colorTheme": "Winter is Coming (Dark Blue)"
+  "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+  "github.copilot.selectedCompletionModel": "gpt",
+  "editor.inlineSuggest.edits.showCollapsed": true,
+  "github.copilot.chat.editor.temporalContext.enabled": true,
+  "chat.agent.maxRequests": 57
 }
