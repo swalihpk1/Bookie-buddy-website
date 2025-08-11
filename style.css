@@ -4670,6 +4670,80 @@ body {
   }
 }
 
+/* Clients Section Styles */
+.client-logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  min-height: 120px;
+  min-width: 160px;
+}
+
+.client-logo-wrapper:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.client-logo-img {
+  max-width: 120px;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: grayscale(1) opacity(0.7);
+  transition: all 0.3s ease;
+}
+
+.client-logo-wrapper:hover .client-logo-img {
+  filter: grayscale(0) opacity(1);
+  transform: scale(1.05);
+}
+
+/* Dark mode styles for client section */
+.dark .client-logo-wrapper {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark .client-logo-wrapper:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive grid adjustments */
+@media (max-width: 768px) {
+  .client-logo-wrapper {
+    min-height: 100px;
+    min-width: 140px;
+    padding: 1rem;
+  }
+  
+  .client-logo-img {
+    max-width: 100px;
+    max-height: 50px;
+  }
+}
+
+@media (max-width: 640px) {
+  .client-logo-wrapper {
+    min-height: 80px;
+    min-width: 120px;
+    padding: 0.75rem;
+  }
+  
+  .client-logo-img {
+    max-width: 80px;
+    max-height: 40px;
+  }
+}
+
 /* scroll indicator */
 
 .scroll-indicator {
