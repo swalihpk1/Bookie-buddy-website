@@ -3,5 +3,6 @@
   "github.copilot.selectedCompletionModel": "gpt",
   "editor.inlineSuggest.edits.showCollapsed": true,
   "github.copilot.chat.editor.temporalContext.enabled": true,
-  "chat.agent.maxRequests": 57
+  "chat.agent.maxRequests": 57,
+  "liveServer.settings.port": 5501
 }
