@@ -5280,7 +5280,7 @@ body {
   }
 
   .wall-background {
-    width: 149px;
+    width: 170px;
     height: 40px;
     border-radius: 6px;
   }
@@ -5290,9 +5290,7 @@ body {
   }
 
   .rolling-text span {
-  height: 41px;
-    width: 200px;
-    padding-bottom: 4px;
+    height: 38px;
   }
 
   @keyframes roll {
